@@ -10,9 +10,11 @@ let num2 = prompt('Please type the second number');
 
 if (num1 > num2) {
     console.log(`Biggest number: ` + num1)
+    document.getElementById('title').innerHTML = (`Biggest number: ` + num1)
 } else if (num2 > num1) {
     console.log(`Biggest number: ` + num2)
-}
-else {
+    document.getElementById('title').innerHTML = (`Biggest number: ` + num2)
+} else {
     console.log(`The numbers are even`);
+    document.getElementById('title').innerHTML = (`The numbers are even`)
 }
