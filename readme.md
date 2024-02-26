@@ -1,7 +1,9 @@
-# Crea un array vuoto.
-- Chiedi per 6 volte all’utente di inserire un numero,
- se è dispari inseriscilo nell’array. @here
+# Stampa il cubo dei primi N numeri,
+- dove N è un numero indicato dall’utente.
 
+<!-- # Crea un array vuoto.
+- Chiedi per 6 volte all’utente di inserire un numero,
+ se è dispari inseriscilo nell’array. @here -->
 
 <!-- # Il software deve chiedere per 10 volte all’utente di inserire un numero.
 - Il programma stampa la somma di tutti i numeri inseriti. -->
