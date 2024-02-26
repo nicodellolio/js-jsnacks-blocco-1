@@ -3,8 +3,8 @@ let N = Number(nString)
 
 let numbersToCube = []
 
-i=1
-while (i < N + 1) {
+i=0
+while (i < N ) {
     numbersToCube.push(i)
     i++
 
