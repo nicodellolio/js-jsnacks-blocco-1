@@ -1,30 +1,29 @@
+let sum = 0
 
-
-const person = prompt('Please type your name and we will look for your name')
-
-let gatsbyList = [
-    'John Mayer',
-    'Marta Mayer',
-    'John Kransky',
-    'Marcus Youth',
-    'John Gotti',
-    'jake Gillighan',
-    'Philip Mayer',
-    'Marco Materazzi',
-]
-
-
-for (let i = 0; i < gatsbyList.length; i++) {
-    const invited = gatsbyList[i];
-    console.log(invited);
+i = 0
+while (i < 10) {
+    let numberString = prompt ('Please insert the number');
+    let number = Number(numberString);
+    i++    
 }
 
-if (gatsbyList.includes(person)) {
-    console.log('Person allowed');
-    document.getElementById('message').innerHTML = (`Welcome to Mr.Gatsb'sy Party`)
-} else {
-    console.log('Person not allowed');    
-    document.getElementById('message').innerHTML = (`I am sorry, you are not allowed to get into Mr.Gatsby's Party`)
-}
+sum = (sum + number);
+alert('La somma dei tuoi numeri è ' + sum)
+
+
+// for (let i = 0; i < 10; i++) {
+//     const numberString = [i];
+//     number = Number(numberString);
+
+
+// }
+
+
+
+
+
+
+
+
 
 
